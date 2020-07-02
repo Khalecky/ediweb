@@ -1,0 +1,21 @@
+{
+  "name": "khalecky/ediweb",
+  "description": "ediweb-app",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Romario",
+      "email": "halecky@mail.ru"
+    }
+  ],
+  "require": {
+    "php": "^7.4.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  }
+
+}
