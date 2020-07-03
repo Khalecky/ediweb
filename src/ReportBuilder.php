@@ -16,12 +16,6 @@ class ReportBuilder
     private Report $report;
 
     /**
-     * Массив, в котором аккумулируются различные показатели
-     * @var array
-     */
-    private array $accumulatedData = [];
-
-    /**
      * Массив сконвертированных данных, по которым формируется отчет.
      *
      * @var array
